@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:linear-gradient(yellow,orange);
+    color: #fff;
+}
+
+.music-player {
+    text-align: center;
+    background: #312e2b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button, #file-input {
+    background: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, #file-input:hover {
+    background: #21a1f1;
+}
